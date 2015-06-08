@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header2.html" -->
+    <div class="container ui-wrap"> 
+        <div class="txt-msg ui-green">
+            <i class="iconfont">&#x3445;</i> 您已成功为 <span class="ui-orange">13611638231</span> 帐户充值50元！
+        </div>
+        <div class="txt-link">
+            <a href="#">返回我的生活通</a>
+            <a href="#">查看充值记录</a>
+            <a href="#">查看账户余额</a>    
+            <a href="#">继续转账</a>
+        </div>
+    </div>
+    <!--# include file="/html/ssi/footer2.html" -->
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script>
+        seajs.use('arale/dialog/1.2.5/dialog',function(Dialog){
+            seajs.importStyle('.sht-ca{ background: #fff; padding: 10px; border: 10px #e7e7e7 solid; line-height: 1.8; outline: none;}.sht-ca-content .iconfont{ font-size: 44px; float: left; margin: 0 20px 0 0;}.sht-ca-close{ float: right; font-size: 18px; margin: -10px 0 0 0;}');
+            var o = new Dialog({
+                classPrefix: 'sht-ca',
+                width:'700px',
+                content: '<div><div class="ui-16px"><i class="iconfont ui-red">&#x344d;</i><strong>您是数字证书用户，但本台电脑还未安装数字证书，您暂不能进行此操作。</strong></div><div class="ui-gray">目前您只能进行账户查询</div><div>如要进行账户资金操作，您需要安装数字证书，或申请注销数字证书。</div><div>现在您可以：<a href="#" class="ui-blue">返回安全中心</a></div></div>'
+            }).show();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+    "family": "sht",
+    "name": "maps",
+    "version": "1.0.0",
+
+    "spm": { 
+	    "alias": {
+	          "$": "jquery/jquery/1.9.1/jquery",
+	          "Class": "arale/class/1.1.0/class"
+	      },  
+        "output": [
+            "maps.js"
+        ]
+    }
+}

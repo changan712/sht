@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户登录</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <meta content="width=device-width,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="../../css/common/base.css">
+    <link rel="stylesheet" href="../../css/account/style.css">
+
+
+</head>
+<body>
+    <div class="f-login" id="J_f_login">
+        <h3>欢迎登陆生活通账户</h3>
+        <div class="account-msg account-error"> <i class="iconfont">&#x344a;</i>
+            这里自定义错误信息
+        </div>
+
+        <div class="f-form-item">
+            <label class="ui-label" for=""> <i class="iconfont">&#x3443;</i>
+            </label>
+            <div class="padded-input">
+                <input class="ui-input" type="text" placeholder="请输入您的用户名"></div>
+        </div>
+
+        <div class="f-form-item account-error">
+            <label class="ui-label" for="">
+                <i class="iconfont">&#x3444;</i>
+            </label>
+            <div class="padded-input">
+                <input class="ui-input" type="password" placeholder="请输入您的密码" />
+            </div>
+        </div>
+
+        <div class="f-form-item">
+            <div class="padded-input">
+                <input type="text" class="ui-input ui-xsmall" placeholder="验证码" />
+                <img class="verification" src="http://placeholder.nipao.com/100x38" />
+            </div>
+        </div>
+
+        <div class="f-form-item">
+            <a class="ui-btn ui-btn-blue ui-btn-huge">登 录</a>
+            &nbsp;
+            <a class="ui-blue" href="#">忘记密码?</a>
+        </div>
+
+        <div class="register-btn">
+            <a class="ui-btn ui-btn-orange ui-btn-huge">立即注册</a>
+        </div>
+
+    </div>
+
+    <!--[if lt IE 9]> 
+    <script>
+        if(document.documentElement.scrollWidth <= 300){
+            var obj = document.getElementById('J_f_login').className += " f-login-mini";
+        }
+    </script> 
+    <![endif]-->
+
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script>seajs.use(['/scripts/public.js', '/scripts/pay/index.js']);</script>
+</body>
+</html>

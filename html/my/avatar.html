@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>my </title>
+    <meta name="keywords" content="关键字"/>
+    <meta name="keywords" content="页面描述"/>
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/my/my.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css"/>
+    <![endif]-->
+</head>
+<body>
+<!--# include file="/html/ssi/header2.html" -->
+<div class="container ui-wrap ">
+    <div class="avatar-con" >
+        <a class="ui-btn-blue btn-back">返回</a>
+       <object type="application/x-shockwave-flash" id="AvatarUpload" data="/images/common/avatar.swf" width="700" height="500">
+		   <param name="menu" value="false">
+           <param name="scale" value="noScale"><param name="allowFullscreen" value="true"	>
+		   <param name="allowScriptAccess" value="always">
+		   <param name="bgcolor" value="">
+		   <param name="wmode" value="transparent">
+		   <param name="flashvars" value="editUrl=1.php">	   
+		   <embed width="700" height="500" border="0" align="middle" wmode="transparent" src="/images/common/avatar.swf"  >
+	   
+	   </object>
+		
+		
+    </div>
+</div>
+<!--# include file="/html/ssi/footer2.html" -->
+
+<script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+<script src="/scripts/seajs.config.js"></script>
+<script src="/scripts/common/swfobject.js"></script>
+<script> seajs.use(['../../scripts/public.js', '../../scripts/my/my.js']);</script>
+<script>
+    var params = {
+        menu: "false",
+        scale: "noScale",
+        allowFullscreen: "true",
+        allowScriptAccess: "always",
+        bgcolor: "",
+        wmode: "transparent" // can cause issues with FP settings & webcam
+    };
+
+    var attributes = {
+        id:"AvatarUpload"
+    };
+    swfobject.embedSWF("/images/common/avatar.swf", "avatar", "700", "500", "10.0.0", "/images/common/expressInstall.swf", { editUrl:'1.php'},params,attributes);
+
+</script>
+</body>
+</html>

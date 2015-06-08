@@ -1,0 +1,11 @@
+{
+  "family": "sht",
+  "name": "klass",
+  "version": "1.0.0",
+
+  "spm": {    
+      "output": [
+        "klass.js"
+      ]
+    }
+}

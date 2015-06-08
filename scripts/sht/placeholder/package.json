@@ -1,0 +1,14 @@
+{
+    "family": "sht",
+    "name": "placeholder",
+    "version": "1.0.0",
+
+    "spm": {   
+        "alias": {
+            "$": "jquery/jquery/1.9.1/jquery"
+        },  
+        "output": [
+            "placeholder.js"
+        ]
+    }
+}

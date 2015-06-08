@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>生活通UI</title>
+    <link rel="stylesheet" href="/css/common/base-ui.css">
+    <link rel="stylesheet" href="/css/common/style.css">
+    <style>
+        /*  以下为演示样式  */
+        h1.demo {
+            border-bottom: 1px #000 solid;
+            text-align: center;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .ui-grid-row div {
+            background: #3ab2da;
+            box-shadow: 0 1px 0 #2ca1d0 inset, 0 -1px 0 #2ca1d0 inset, 1px 0 0 #2ca1d0 inset, -1px 0 0 #2ca1d0 inset;
+            transition-duration: 0.3s;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<div class="top">
+    <div class="ui-wrap">
+        <div class="header">
+            <div class="top-links">
+                <a href="#">生活通首页</a>|
+                <a href="#">帮助中心</a>|
+                <a href="#">提点建议</a>
+            </div>
+            <h1 class="logo">生活通</h1>
+
+            <div class="local-logo">
+                <img src="http://placeholder.nipao.com/40" alt="延吉"/>
+
+                <div class="local-info">
+                    <span class="local-name">延吉</span><br/>
+                    <span class="change-city">[切换城市]</span>
+                </div>
+                <!-- <span class="channel-desc">欢迎登录</span> -->
+            </div>
+
+        </div>
+    </div>
+    <div class="nav">
+        <div class="ui-wrap">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">政务</a></li>
+                <li class="curr"><a href="#">商圈<i class="ui-arrow-up"></i></a></li>
+                <li><a href="#">旅游</a></li>
+                <li><a href="#">社区</a></li>
+                <li><a href="#">一帐通</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- UI组件开始 -->
+<div class="ui-wrap" style=" padding:40px 0;">
+
+
+</div>
+
+<!-- UI组件结束 -->
+<div class="bottom">
+    <div class="ui-wrap">
+        <div class="bottom-banner"><img src="/images/common/bottom-banner.jpg" alt=""></div>
+        <ul class="bottom-type ui-clear">
+            <li class="bottom-logo">
+                <h1 class="logo">生活通</h1>
+
+                <div class="local-logo">
+                    <img src="http://placeholder.nipao.com/40" alt="延吉"/>
+
+                    <div class="local-info">
+                        <span class="local-name">延吉</span><br/>
+                        <span class="change-city">[切换城市]</span>
+                    </div>
+                </div>
+            </li>
+            <li class="hot-city">
+                <strong class="b-tit">热门城市</strong>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+                <a href="#">杭州</a>
+            </li>
+            <li class="safeguard">
+                <strong class="b-tit">消费者保障</strong>
+                <a href="#">退款流程</a>
+                <a href="#">我要发起维权</a>
+                <a href="#">帮助中心</a>
+            </li>
+            <li class="school">
+                <strong class="b-tit">新手上路</strong>
+                <a href="#">0元预约</a>
+                <a href="#">交易安全</a>
+                <a href="#">24小时在线帮助</a>
+            </li>
+            <li class="qr-code">
+                <div class="code-wrap">
+                    <img src="http://placeholder.nipao.com/63" alt="扫描二码维"/>
+                    扫描二码维
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="ui-wrap">
+            <a href="#">生活通简介</a>|
+            <a href="#">网站地图</a>|
+            <a href="#">联系我们</a>
+            <span class="tel">服务热线：95678</span>
+            <span class="copyright">版权所有：生活通有限公司</span>
+
+            <div class="en-copyright">copyright@2013 www.sht.cn all rights reserved</div>
+        </div>
+    </div>
+</div>
+<script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+<script src="/scripts/seajs.config.js"></script>
+<script type="text/javascript">
+    seajs.use(['/scripts/public.js', '/scripts/index/index.js']);
+</script>
+</body>
+</html>

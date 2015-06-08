@@ -1,0 +1,151 @@
+.arrow-right{
+	height: 12px;
+	width: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #ddd;
+	background: #c8a98a;
+	border-radius: 3px;
+	font-family: 宋体;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 5px; 
+	}
+
+
+
+/**
+ * 一账通
+ */
+.container{ margin-top: 20px;}
+
+.user-panel{background: #faf9f7; margin-bottom: 20px;}
+.user-info{ margin:20px 0 20px 20px; padding: 20px 0 0 0; border-right: 1px #aaa dashed; padding-right: 40px;}
+.user-avatar{ text-align: center; width: 120px; margin-right: 20px;}
+.user-avatar-info{ position: relative;}
+.update-avatar{ display: block; position: absolute; background: #333229; color: #fff; top: 71px; left: 5px; height: 24px; line-height: 24px; width: 110px;}
+
+.user-btn-wrap{ line-height: 44px; position: relative; top: -25px;}
+.user-cash{ padding: 20px;width: 315px; line-height: 3;}
+.user-cash dl{ clear: both; display: block;}
+.user-cash dl span{ line-height: 1.5; padding-top: 9px; display: block;}
+.user-cash dt, .user-cash dd{ float: left;}
+
+
+.demo-form{cursor: pointer; margin: 20px 50px 0 0; padding: 20px 0; width: 140px; height: 60px; background: #faf9f7; border: 1px #e6e2d8 dashed; text-align: center;}
+.demo-form span{ display: block; line-height: 30px;}
+
+.tips li{ line-height: 24px; }
+.table-top{ background: #fbfaf9; line-height: 40px;}
+.table-tit{ padding-left: 10px;}
+.select-list a{ padding: 0 15px;}
+.select-list a i{ position: relative; top:-2px;}
+
+/* ----------------- */
+.pay{ padding: 30px 0;}
+.txt-msg{ font-size: 34px; text-align: center; padding:150px 0 50px 0;}
+.txt-msg i{ font-size: 40px;}
+.txt-link{ text-align: center;}
+.txt-link a{ margin: 0 10px; color: #006efa;}
+
+.box-line-orange{ background: #fffce8; border: 1px #ffe5c6 solid;padding: 0 20px; height: 34px; line-height: 34px;}
+.box-line{ border: 1px #e8e8e8 solid; background: #faf9f7; padding: 0 20px; }
+.box-line .box-line-3{ float: right;}
+.box-line .box-line-1{ margin-right: 100px;}
+.box-line .box-line-2{ background: #dcd5c4; padding:2px 4px;}
+
+.line-dashed{ height: 1px; overflow: hidden; border-top: 1px #aaa dashed; margin:30px;}
+.pay-avatar{ padding: 4px; background: #fff; border: 1px #e8e8e8 solid;position: relative;top: -20px; width: 110px; height: 110px;}
+
+.pay-h3{margin: 20px 20px;border-bottom: 1px #aaa dashed;height: 30px;line-height: 30px;}
+.pay-l{ display: inline-block; width: 80px;}
+
+.bank-wrap{ padding: 0 20px; margin: 20px 0; border: 1px #e8e8e8 solid;}
+.bank-top{ position: relative;}
+.bank-top a{ background: #e8e8e8; padding: 5px 10px; height: 27px; line-height: 27px;}
+.order-desc{ display: none; text-align: left; border: 1px #e8e8e8 solid; padding-left: 80px; width: 280px; position: absolute; right: 0; background: #fff; z-index:12;}
+.order-desc .ui-form-item{ padding: 0;}
+
+.bank-tab{ margin-top: 40px;height: 35px; padding: 0 1px;}
+.bank-tab span{ display: inline-block; width: 100px; border-top: 1px #e8e8e8 solid;border-left: 1px #e8e8e8 solid;border-right: 1px #e8e8e8 solid; height: 30px; line-height: 30px; text-align: center; margin: 0 2px; }
+
+.bank-repair{border-bottom: 1px #ffce93 solid; position: absolute; margin: 0 -3px; height: 3px; width: 110%; left:0; bottom: 0; display: none;}
+.bank-tab a{border-top: 3px #fff solid;border-left: 3px #fff solid;border-right: 3px #fff solid; display: inline-block;}
+.bank-tab a.curr{ margin:0 2px; border-top: 3px #fff3dc solid; border-left: 3px #fff3dc solid; border-right: 3px #fff3dc solid; display: inline-block; position: relative; z-index: 8; top: 1px;}
+.bank-tab a.curr span{ color:#f60; border-top: 1px #ffce93 solid;border-left: 1px #ffce93 solid;border-right: 1px #ffce93 solid; height: 34px; line-height: 32px; position: relative; background: #fff;z-index: 5; margin:0; }
+.bank-tab a.curr .bank-repair{ display: block;}
+.border-orange-3px{ border: 3px #fff3dc solid; position: relative; z-index: 4;}
+.bank-list{border: 1px #ffce93 solid; +padding-bottom: 10px; display: none;}
+
+.deposit-card{ padding-left: 5px;}
+.deposit-card li{vertical-align: top; cursor: pointer; margin: 10px 19px; border: 2px #ccc solid; padding: 0 8px; float: left; height: 34px; width: 122px; background: url(/images/pay/combo.png) no-repeat; overflow: hidden;}
+.deposit-card li.curr{ border: 2px #f60 solid;}
+.deposit-card li span{ display: none;}
+.deposit-card .bank-input{ position: relative; top: 7px;}
+
+.deposit-card .fast-pay{background-position: 22px -1183px;}
+.deposit-card .alipay{background-position: 22px -1218px;}
+
+.deposit-card .icbc{background-position: 22px -648px;}
+.deposit-card .abc{background-position: 22px 0px;}
+.deposit-card .boc{background-position: 22px -72px;}
+.deposit-card .ccb{background-position: 22px -180px;}
+.deposit-card .bcom{background-position: 22px -396px;}
+
+.deposit-card .cmb{background-position: 22px -324px;}
+.deposit-card .post{background-position: 22px -900px;}
+.deposit-card .cib{background-position: 22px -252px;}
+.deposit-card .nbcb{background-position: 22px -792px;}
+.deposit-card .spdb{background-position: 22px -1008px;}
+
+.deposit-card .pab{background-position: 22px -972px;}
+.deposit-card .cmbc{background-position: 22px -360px;}
+.deposit-card .ceb{background-position: 22px -216px;}
+.deposit-card .gdb{background-position: 22px -540px;}
+.deposit-card .shb{background-position: 22px -936px;}
+.deposit-card .citic{background-position: 22px -288px;}
+
+.pay-wrap-1{ display: inline-block;}
+.pay-card-info li{ margin: 0;}
+.pay-card-info .bank-input{ top:2px;}
+
+.ico1{ background: #f60; color: #fff; padding: 0 3px;}
+.ico1-arrow{ color: #f60; position: relative; top: -1px;}
+
+.select-money{ display: inline-block;}
+.select-money a{ margin: 0 5px 0 0; display: inline-block; border: 1px #e8e8e8 solid; padding: 0 10px;}
+.select-money a.curr{ border: 2px #f60 solid; line-height: 28px;}
+
+.topup-wrap .ui-select{ position: relative; padding-bottom: 4px;}
+.trade-warp .ui-form-item{ padding-left: 0;}
+
+.trade-info-2{ text-align: left; padding: 0 20px;}
+.trade-list-content-1,.trade-list-content-2{ padding:20px; line-height: 24px;}
+.trade-list-content-1{ background: #faf9f7; margin-top: 20px;}
+.trade-list-content-2{ background: #f1eee5;}
+
+.topup-top{ background: #fff7e8; border-top: 1px #ffe5c6 solid; border-right: 1px #ffe5c6 solid; border-left: 1px #ffe5c6 solid; border-bottom: 2px #f60 solid; height: 40px; line-height: 40px; padding: 0 20px; margin-bottom: -20px;}
+
+.div-alert{ line-height: 30px;
+	-moz-box-shadow: 2px 2px 10px #909090;/* for firefox */
+	-webkit-box-shadow: 2px 2px 10px #909090;/* for safari or chrome */
+	box-shadow:2px 2px 10px #909090;/* for opera or ie9 */}
+.div-alert .line-dashed{margin: 0;}
+.auto-show{ padding: 20px 0; text-align: center;}
+
+.pay-tab-con{ display: none;}
+
+.act-list{border-bottom: 1px #aaa dashed; margin-top: -10px;}
+.table-txt{ line-height: 20px;}
+
+.sp{ float: none; padding: 0;}
+.sp li{ padding: 0; margin: 0; border: 2px #f60 solid; width: 208px;}
+
+.life-list a{ font-size: 14px; margin: 0 5px; display: inline-block; padding: 0 10px; font-weight: bold; background: #faf9f7;}
+.life-list a.curr{ background: #f60; color: #fff;}
+
+/* 新增tip */
+.ui-poptip-sht{}
+.arale-tip-1_2_1 .ui-poptip-sht .ui-poptip-container{ padding: 0;}
+.ui-poptip-sht .ui-table{ margin: 0;}
+.ui-poptip-sht .ui-table td{ padding: 0 5px;}

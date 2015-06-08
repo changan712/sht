@@ -1,0 +1,14 @@
+.ca{ padding: 20px 40px; border: 1px #c6c6c6 solid; width: 600px; margin: 20px auto;}
+.ca-name{ font-size: 18px;}
+.ca p{ padding: 8px 0;}
+
+.get-code-info{ background: #FAF8F8; margin-top: 10px; font-size: 12px; padding: 0px 10px 10px 10px;border: 1px #c6c6c6 solid;}
+
+.ca-install-succeed{ line-height: 1.5; background: #FAF8F8; position: relative; padding: 0 10px 0 75px;}
+.ca-install-succeed .iconfont{ position: absolute; font-size: 50px; left:10px; top:0;}
+.ca-install-succeed strong{ font-size: 18px; margin-bottom: 10px; display: block;} 
+
+.ca2{ padding: 0 10px; width: 680px;}
+.ca2 .ui-tit{ padding-top: 5px;}
+.ca-warp{ border: 20px #E7E6E6 solid; width: 680px; margin: 20px auto;}
+.ca-warp .ca{ margin: 0;}

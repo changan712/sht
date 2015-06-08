@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	    <title>生活通UI</title>
+	    <link rel="stylesheet" href="/css/common/base-ui.css">
+	    <link rel="stylesheet" href="/css/common/style.css"> 
+	    <style>
+			/*  以下为演示样式  */
+			h1.demo{ border-bottom: 1px #000 solid; text-align: center;line-height: 30px; margin-bottom: 10px;}
+
+			.ui-grid-row div {
+			    background: #3ab2da;
+			    box-shadow: 0 1px 0 #2ca1d0 inset, 0 -1px 0 #2ca1d0 inset, 1px 0 0 #2ca1d0 inset, -1px 0 0 #2ca1d0 inset;
+			    transition-duration: 0.3s;
+			    text-align: center;
+			}
+	    </style>
+	    
+  	</head>
+  	<body>
+  	<div class="top">
+  		<div class="ui-wrap">
+			<div class="header">
+				<div class="top-links">
+					<a href="#">生活通首页</a>|
+					<a href="#">帮助中心</a>|
+					<a href="#">提点建议</a>
+				</div>
+				<h1 class="logo">生活通</h1>
+				<div class="local-logo">
+					<img src="http://placeholder.nipao.com/40" alt="延吉" />
+					<div class="local-info">
+						<span class="local-name">延吉</span><br />
+						<span class="change-city">[切换城市]</span>
+					</div>	
+					<!-- <span class="channel-desc">欢迎登录</span> -->			
+				</div>
+				
+			</div>
+		</div>
+		<div class="nav">
+			<div class="ui-wrap">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">政务</a></li>
+					<li class="curr"><a href="#">商圈<i class="ui-arrow-up"></i></a></li>
+					<li><a href="#">旅游</a></li>
+					<li><a href="#">社区</a></li>
+					<li><a href="#">一帐通</a></li>
+				</ul>
+			</div>
+		</div>
+  	</div>
+	
+	<!-- UI组件开始 -->
+<div class="ui-wrap" style=" padding:40px 0;">
+
+	<!--  布局  -->
+	<h1 class='demo'>布局</h1>
+	<div class="ui-grid-row">
+    	<div class="ui-grid-25">页宽 990px</div>
+	</div>
+	<div class="ui-grid-row">
+	    <div class="ui-grid-17">首页main 670px</div>
+	    <div class="ui-grid-8">首页sidebar 310px</div>
+	</div>
+	<div class="ui-grid-row">
+	    <div class="ui-grid-5">内面sidebar 190px</div>
+	    <div class="ui-grid-20">内面main 790px</div>
+	</div>
+
+
+	<!--  Box  -->
+	<h1 class='demo'>Box</h1>
+
+	<div class="ui-box">
+	    <div class="ui-box-head">
+	        <h3 class="ui-box-head-title">
+				<i class="iconfont" title="灯泡">&#x00E3;</i>
+	        	注册生活通帐号</h3>
+	        <span class="ui-box-head-text">这里是其他描述性文字</span>
+	        <a href="#" class="ui-box-head-more">更多</a>
+	    </div>
+	    <div class="ui-box-container">
+	        <div class="ui-box-content">
+	        	<!-- 表单开始 -->
+	        	<h1 class='demo'>表单</h1>
+	        	<form class="ui-form" name="" method="post" action="#" id="">
+				    <fieldset>
+				        <legend>表单标题</legend>
+				        <div class="ui-form-item ui-form-item-error">
+				            <label for="" class="ui-label">表单项文本</label>
+				            <p class="ui-form-text">一个个文字文字</p>
+				        </div>
+
+				        <div class="ui-form-item">
+				            <label for="" class="ui-label">
+				                <span class="ui-form-required">*</span>表单项文本1
+				            </label>
+				            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">添加备注</a></span>
+				            <p class="ui-form-explain">默认文案</p>
+				        </div>
+
+				        <div class="ui-form-item ui-form-item-error">
+				            <label for="" class="ui-label">表单项文本2</label>
+				            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
+				            <p class="ui-form-explain">
+				                <i class="ui-tiptext-icon iconfont" title="出错">&#xF045;</i>
+				                此在DOM上保存属性值，请使用data-xxx的形式。
+				            </p>
+				        </div>
+
+				        <div class="ui-form-item ui-form-item-focus">
+				            <label for="" class="ui-label">表单项文本3</label>
+				            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
+				            <p class="ui-form-explain ui-tiptext ui-tiptext-error">
+				                <i class="ui-tiptext-icon iconfont" title="出错">&#xF045;</i>
+				                ui-form-item-focus 的效果。
+				            </p>
+				        </div>
+
+				        <div class="ui-form-item ui-form-item-success">
+				            <label for="" class="ui-label">表单项文本4</label>
+				            <textarea class="ui-textarea">一二三四五六七八九十</textarea>
+				            <p class="ui-form-explain">
+				                <i class="ui-tiptext-icon iconfont" title="成功">&#xF049;</i>
+				                成功文案。
+				            </p>
+				        </div>
+
+				        <div class="ui-form-item">
+				            <label for="" class="ui-label">下拉选择</label>
+				            <select id="province" name="province">
+				                <option value="">
+				                请选择
+				                </option>
+				                <option value="北京">
+				                北京
+				                </option>
+				                <option value="上海">
+				                上海
+				                </option>
+				                <option value="天津">
+				                天津
+				                </option>
+				                <option value="浙江">
+				                浙江
+				                </option>
+				            </select>
+				            <p class="ui-form-explain">更多地区即将开通，敬请期待。</p>
+				        </div>
+
+				        <div class="ui-form-item">
+				            <label for="" class="ui-label ui-label-reset">不可用input</label>
+				            <input class="ui-input ui-input-disable" type="text" disabled>       
+				            <p class="ui-form-explain">目前不可用</p>
+				        </div>
+
+				        <div class="ui-form-item">
+				            <label for="" class="ui-label">验证码</label>
+				            <input class="ui-input ui-input-checkcode" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
+				            <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&r=0.9321065918075809"  title="点击刷新图片校验码">
+				            <a href="#">看不清，换一张</a>
+				            <div class="ui-form-explain">请输入右图中字符，不区分大小写。</div>
+				        </div>
+
+				        <div class="ui-form-item">
+				            <label for="test">
+				                <input class="ui-checkbox" id="test" value="" type="checkbox">
+				                我已阅读并接受自主缴费服务协议
+				            </label>
+				        </div>
+				    </fieldset>
+				</form>
+				<!-- 表单结束 -->
+
+	        </div>
+	    </div>
+	</div>
+
+	<!--  按钮  -->
+	<h1 class='demo'>按钮</h1>
+	<a href="javascript:;" class="ui-button ui-button-h22-orange">立即抢</a>
+	<a href="javascript:;" class="ui-button ui-button-h25-orange">储蓄卡</a>
+	<a href="javascript:;" class="ui-button ui-button-h30-orange">高30px按钮</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:;" class="ui-button ui-button-h22-skyblue">立即抢</a>
+	<a href="javascript:;" class="ui-button ui-button-h25-skyblue">储蓄卡</a>
+	<a href="javascript:;" class="ui-button ui-button-h30-skyblue">高30px按钮</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:;" class="ui-button ui-button-h22-lightgreen">立即抢</a>
+	<a href="javascript:;" class="ui-button ui-button-h25-lightgreen">储蓄卡</a>
+	<a href="javascript:;" class="ui-button ui-button-h30-lightgreen">高30px按钮</a>
+
+
+
+	<a href="javascript:;" class="ui-button ui-button-h25-lightgreen"><i class="ui-arrow-up"></i> <i class="ui-arrow-right"></i> <i class="ui-arrow-down"></i> <i class="ui-arrow-left"></i></a>
+	<br /><br />
+	<a href="javascript:;" class="ui-button ui-button-h30-orange ui-border-orange">下一步</a>
+	<a href="javascript:;" class="ui-button ui-button-h30-orange ui-border-yellow">注 册</a>
+
+
+	<!-- 选择卡 -->
+	<h1 class='demo'>标题盒子/选项卡</h1>
+	<div class="ui-sbox">
+		<div class="ui-sbox-head">
+			<ul>
+				<li><a class="curr" href="#">热门商户排行榜</a></li>
+				<li><a href="#">其它</a></li>
+			</ul>
+			<a href="#" class="ui-sbox-head-more">更多</a>
+		</div>
+		<div class="ui-sbox-content">
+			ui-tab-content
+		</div>
+	</div>
+	
+	
+	
+
+</div>
+
+	<!-- UI组件结束 -->
+<div class="bottom">
+	<div class="ui-wrap">
+		<div class="bottom-banner"><img src="/images/common/bottom-banner.jpg" alt=""></div>
+		<ul class="bottom-type ui-clear">
+			<li class="bottom-logo">
+				<h1 class="logo">生活通</h1>
+				<div class="local-logo">
+					<img src="http://placeholder.nipao.com/40" alt="延吉" />
+					<div class="local-info">
+						<span class="local-name">延吉</span><br />
+						<span class="change-city">[切换城市]</span>
+					</div>	
+				</div>
+			</li>
+			<li class="hot-city">
+				<strong class="b-tit">热门城市</strong>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+				<a href="#">杭州</a>
+			</li>
+			<li class="safeguard">
+				<strong class="b-tit">消费者保障</strong>
+				<a href="#">退款流程</a>
+				<a href="#">我要发起维权</a>
+				<a href="#">帮助中心</a>
+			</li>
+			<li class="school">
+				<strong class="b-tit">新手上路</strong>
+				<a href="#">0元预约</a>
+				<a href="#">交易安全</a>
+				<a href="#">24小时在线帮助</a>
+			</li>
+			<li class="qr-code">
+				<div class="code-wrap">
+					<img src="http://placeholder.nipao.com/63" alt="扫描二码维" />
+					扫描二码维
+				</div>				
+			</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<div class="ui-wrap">
+			<a href="#">生活通简介</a>|
+			<a href="#">网站地图</a>|
+			<a href="#">联系我们</a>
+			<span class="tel">服务热线：95678</span>
+			<span class="copyright">版权所有：生活通有限公司</span>
+			<div class="en-copyright">copyright@2013 www.sht.cn all rights reserved</div>
+		</div>
+	</div>
+</div>
+  	</body>
+</html>

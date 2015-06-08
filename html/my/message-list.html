@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>my 消息中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="../../css/common/base.css">
+    <link rel="stylesheet" href="../../css/my/my.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header.html" -->
+    <div class="container ui-clear ui-wrap">
+        <!--# include file="/html/ssi/u-top.html" -->
+        <div class="u-main">
+            <!--# include file="/html/ssi/u-nav.html" -->
+            <div class="u-content ">
+                <h2 class="ui-tit">
+                    <span class="t">
+                        消息中心 <i class="ui-arrow-up"></i>
+                    </span>
+                </h2>
+                <ul class="message-list">
+                    <li>
+                        <span class="time">2014-01-01</span>
+                        <div class="l"> <i>></i>
+                            团购
+                        </div>
+                        <div class="r">
+                            <a>0元团购开始，等待您的订购</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="time">2014-01-01</span>
+                        <div class="l">
+                            <i>></i>
+                            水电煤缴费
+                        </div>
+                        <div class="r">
+                            <a>您的2013-11-17水费账单出来了，请及时付款</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="time">2014-01-01</span>
+                        <div class="l">
+                            <i>></i>
+                            水电煤缴费
+                        </div>
+                        <div class="r">
+                            <a>短信校验服务（免费版）下线通知</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="ui-page">
+                    <a disable='disable' title="上一页" ><i class="ui-arrow-left"></i></a><a class="curr">1</a><a>2</a><a>3</a><a>4</a>...<a>15</a><a title="下一页" ><i class="ui-arrow-right"></i></a>
+                </div>
+                <div class="ui-page ui-page2">
+                    <a >上一页</a> <a>下一页</a><input type="text"/><a class="go">GO</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--# include file="/html/ssi/footer.html" -->
+
+    <script src="../../scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="../../scripts/seajs.config.js"></script>
+    <script> seajs.use(['../../scripts/public.js', '../../scripts/my/my.js']);</script>
+</body>
+</html>

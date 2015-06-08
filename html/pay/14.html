@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header2.html" -->
+    <div class="container ui-wrap pay"> 
+        <div class="box-line-orange">
+            <span class="ui-right ui-red">168.00 元</span>
+            <strong class="ui-orange ui-14px">水费</strong> &nbsp;&nbsp;&nbsp; 收款方：延吉水公司
+        </div>
+
+        <div class="bank-wrap">
+            <div class="bank-top ui-align-right">
+                <a class="J_order_desc" href="javascript:;">订单详情 <i class="ui-arrow-down"></i></a>
+                <div class="ui-form order-desc J_order_desc_content">        
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">缴费项目: </label>
+                        水费
+                    </div>
+
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">缴费地区: </label>
+                        延吉
+                    </div>
+
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">收费单位: </label>
+                        延吉水公司
+                    </div>
+
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">缴费号码: </label>
+                        200545454
+                    </div>
+
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">账单: </label>
+                        <span class="pay-l"><input type="checkbox"> 201302</span>
+                        <span class="pay-l">120.11 元</span>
+                        <br>
+                        <span class="pay-l"><input type="checkbox"> 201302</span>
+                        <span class="pay-l">120.11 元</span>
+                        <span class="pay-l">滞纳金 3.00元</span>
+                        <br>
+                        <span class="pay-l"><input type="checkbox"> 201302</span>
+                        <span class="pay-l">120.11 元</span>
+                        <span class="pay-l">滞纳金 3.00元</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui-form-item">
+                <label class="ui-label" for="">支付方式: </label>
+                <span class="pay-wrap-1 ui-medium">支付账户 <span class="ui-red">（总额 400.00 元）</span>  </span> 支付<span class="ui-red">200.00</span>元              
+            </div>
+
+            <div class="ui-form-item">
+                <span class="pay-wrap-1 ui-medium">
+                <ul class="deposit-card pay-card-info">
+                    <li class="icbc"><input class="bank-input" type="radio" /><span>工商银行</span></li>
+                </ul>
+                </span> 支付<span class="ui-red">200.00</span>
+            </div>
+
+            <div class="ui-form-item">
+                <label class="ui-label" for="">支付密码: </label>
+                <input class="ui-input" type="text" /> &nbsp; <a class="ui-blue">忘记支付密码?</a>
+            </div>
+
+            <div class="ui-form-item">
+                <a class="ui-btn ui-btn-orange">确认付款</a>
+            </div>
+
+           
+            <br>
+        </div>
+
+
+    </div>
+
+    <!--# include file="/html/ssi/footer2.html" -->
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/pay/index.js']);</script>
+</body>
+</html>

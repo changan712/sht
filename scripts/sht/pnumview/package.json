@@ -1,0 +1,11 @@
+{
+  "family": "sht",
+  "name": "pnumview",
+  "version": "1.0.0",
+
+  "spm": {    
+      "output": [
+        "pnumview.js"
+      ]
+    }
+}

@@ -1,0 +1,1 @@
+define("sht/tab/1.0.0/tab",[],function(a,b,c){function d(a,b,c){this.h=$(a),this.con=$(b),this.method=c?c:"mouseover",this.init()}c.exports=d,d.prototype={init:function(){this.con.hide().eq(0).show();var a=this;this.h.bind(this.method,function(){return a.n=a.h.index($(this)),a.h.removeClass("curr active"),$(this).addClass("curr active"),a.con.hide().eq(a.n).show(),!1})}}});

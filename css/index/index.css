@@ -1,0 +1,113 @@
+
+img {
+    vertical-align: top;
+}
+
+.main {
+
+    position: relative;;
+}
+
+.carousel {
+    height: 530px;
+    position: relative;
+    overflow: visible;
+}
+
+.carousel .carousel-scroller {
+    height: 490px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.carousel .ui-switchable-nav {
+    height: 20px;
+    line-height: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+}
+
+.carousel .ui-switchable-nav li {
+    background: #ccc;
+    border: none;
+    height: 10px;
+    width: 10px;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 0 8px;
+}
+
+.carousel .ui-switchable-nav li.ui-switchable-active {
+    background: #39a6ec;
+}
+
+.carousel .ui-switchable-panel {
+    text-align: center;
+    height: 490px;
+    width: 100%;
+}
+
+.carousel .carousel-rbtn {
+    display: none;
+}
+
+.carousel .bg-img {
+    height: 100%;
+    position: relative;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.carousel .con {
+    height: 100%;
+}
+
+.carousel .con li{ height: 100%;}
+
+.login {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 50px;
+    height: 390px;
+    width: 320px;
+    background:#fff;
+    background: rgba(255, 255, 255, .8);
+    margin: 0 0 0 175px;
+}
+
+.login iframe {
+    margin: 20px 0 0 22px;
+}
+
+.ads {
+    margin: 30px 0;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.ads ul {
+    margin-right: -30px;
+}
+
+.ads li {
+    width: 320px;
+    height: 122px;
+    overflow: hidden;
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+.i-slogan {
+    margin: 30px 0;
+}
+
+.i-subads {
+
+    height: 250px;
+}

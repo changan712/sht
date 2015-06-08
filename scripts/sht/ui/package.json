@@ -1,0 +1,19 @@
+{
+  "family": "sht",
+	"name": "ui",
+	"version": "1.0.0",
+
+	"spm": {
+    	"alias": {
+      		"popup": "arale/popup/1.1.6/popup",
+          "overlay": "arale/overlay/1.1.4/overlay",
+          "widget": "arale/widget/1.1.1/widget",
+          "select": "arale/select/0.9.9/select",
+          "popup": "arale/popup/1.1.6/popup"
+    	},      
+    	"output": [
+    		"ui.js", 
+    		"fn.js"
+    	]
+  	}
+}

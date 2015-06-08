@@ -1,0 +1,11 @@
+{
+  "family": "sht",
+  "name": "sSelect",
+  "version": "1.0.0",
+
+  "spm": {    
+      "output": [
+        "sSelect.js"
+      ]
+    }
+}

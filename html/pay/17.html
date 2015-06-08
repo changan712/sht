@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header.html" -->
+    <div class="container ui-clear ui-wrap"> 
+        <!--# include file="/html/ssi/u-top.html" -->
+        <div class="ui-grid-row">
+            <div class="ui-sidebar"><!--# include file="/html/ssi/u-nav.html" --></div>
+            <div class="ui-main">
+
+                <h2 class="ui-tit">
+                    <span class="more"><a class="ui-orange" href="#">交易记录</a> | <a href="#">充值记录</a> | <a href="#">提现记录</a> | <a href="#">转账记录</a></span>
+                    <span class="t">交易管理 <i class="ui-arrow-up"></i> </span>
+                </h2>
+               
+               <div class="trade-warp">
+                    <div class="ui-form-item">
+                        交易状态: 
+                        <select class="ui-select ui-xsmall">
+                            <option>全部</option>
+                            <option>bbb</option>
+                            <option>ccc</option>
+                        </select>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        交易时间段: <span class="ui-shtcalendar"><input class="ui-input ui-xsmall J_start_cal" type="text" /><i class="iconfont">&#x3453;</i></span> - <span class="ui-shtcalendar"><input class="ui-input ui-xsmall J_end_cal" type="text" /><i class="iconfont">&#x3453;</i></span>
+                        <select class="ui-select ui-xsmall">
+                            <option>最近3个月</option>
+                            <option>bbb</option>
+                            <option>ccc</option>
+                        </select>
+                    </div>
+
+                    <div class="ui-form-item">
+                        资金流向: 
+                        <select class="ui-select ui-xsmall">
+                            <option>全部</option>
+                            <option>bbb</option>
+                            <option>ccc</option>
+                        </select>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                       <a class="ui-btn ui-btn-orange">查询</a>
+                    </div>
+
+               </div>   
+
+               <br>
+
+               <div class="ui-form">
+                    <span class="ui-right">下载到: <a class="ui-blue">Excel格式</a></span>
+                    资金统计：收入 1  笔，共<span class="ui-red">299.00</span>元   |   支出 10 笔，共<span class="ui-red">869.00</span>元
+                </div>
+
+                <table class="ui-table">
+                    <tr>
+                        <th>流水号</th>
+                        <th>交易时间</th>
+                        <th>交易时间</th>
+                        <th>对方</th>
+                        <th>金额</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td>201454545454</td>
+                        <td>2014.02.03</td>
+                        <td>话费充值（代扣）</td>
+                        <td>延吉电子公司</td>
+                        <td>-1111.22</td>
+                        <td><a class="ui-ic-blue" href="#">查看</a> </td>
+                    </tr>
+                    <tr>
+                        <td>201454545454</td>
+                        <td>2014.02.03</td>
+                        <td>话费充值（代扣）</td>
+                        <td>延吉电子公司</td>
+                        <td>-1111.22</td>
+                        <td><a class="ui-ic-blue" href="#">查看</a> </td>
+                    </tr>
+                    <tr>
+                        <td>201454545454</td>
+                        <td>2014.02.03</td>
+                        <td>话费充值（代扣）</td>
+                        <td>延吉电子公司</td>
+                        <td>-1111.22</td>
+                        <td><a class="ui-ic-blue" href="#">查看</a> </td>
+                    </tr>
+                </table>
+
+                <div class="ui-page">
+                    <a disable="disable" title="上一页"><i class="ui-arrow-left"></i></a>
+                    <a class="curr">1</a>
+                    <a>2</a>
+                    <a>3</a>
+                    <a>4</a>
+                    ...
+                    <a>15</a>
+                    <a title="下一页"><i class="ui-arrow-right"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!--# include file="/html/ssi/footer.html" -->
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/pay/index.js']);</script>
+</body>
+</html>

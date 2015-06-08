@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>证书</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="../../css/common/base.css">
+    <link rel="stylesheet" href="../../css/my/my.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header2.html" -->
+    <div class="container ui-wrap">
+        <div class="ca-warp"> 
+            <div class="ca">
+                <h2 class="ui-tit">
+                    <span class="t">
+                        管理数字证书 <i class="ui-arrow-up"></i>
+                    </span>
+                </h2>
+                <strong class="ca-name">数字证书</strong> &nbsp; <span class="ui-red">(免费)</span>
+                <p>申请后，账户安全等级为：<span class="ui-red">高</span> </p>
+                <p>申请数字证书后，只能在安装数字证书的电脑上支付。当您换电脑或重装系统时，只需用手机校验即可重新安装数字证书，所以确保您在支付宝绑定的手机可以正常使用。</p>
+                <p class="ui-gray">支持的操作系统：<br>
+                    Windows XP /Vista /7 ; Mac OS X 10.7及以上版本<br><br> 
+                    支持的浏览器： <br>
+                    Windows ： 32位浏览器（暂不支持64位浏览器） <br>
+                    Mac OS X ：Safari /Chrome /Firefox 浏览器 
+                    <br><br> 
+                </p> 
+                <div>
+                    <a class="ui-btn ui-btn-orange J_dialog_url" href="./ca-3.html">申请数字证书</a> &nbsp; 申请前，确认您绑定的手机（136****8231）能接收短信 &nbsp; <a class="ui-blue" href="#">修改号码</a> 
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--# include file="/html/ssi/footer2.html" -->
+
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['arale/dialog/1.2.5/dialog','arale/dialog/1.2.5/dialog.css'],function(Dialog){ 
+        new Dialog({
+            trigger: '.J_dialog_url', 
+            width: "700px"
+        }).before('show',function() {
+             this.set('content', this.activeTrigger.attr('href'));
+        });
+    });</script>  
+   
+</body>
+</html>

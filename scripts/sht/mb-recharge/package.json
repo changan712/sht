@@ -1,0 +1,11 @@
+{
+  "family": "sht",
+  "name": "mb-recharge",
+  "version": "1.0.0",
+
+  "spm": {    
+      "output": [
+        "mb-recharge.js"
+      ]
+    }
+}

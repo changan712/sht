@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header2.html" -->
+    <div class="container ui-wrap pay"> 
+        <div class="topup-top">
+            <strong class="ui-orange ui-16px">支付账户充值</strong> &nbsp;&nbsp;&nbsp; 余额 <span class="ui-red">9.21</span> 元
+        </div>
+
+        <div class="bank-wrap">           
+
+            <div>
+                <br>
+                <br>
+                充值账号: pay@nipao.com
+            </div>
+
+            <div class="bank-tab J_bank_tab"> 
+                <a href="javascript:;">
+                    <span>快捷支付</span>
+                    <div class="bank-repair"></div>
+                </a>
+
+                <a href="javascript:;">
+                    <span>支付宝</span>
+                    <div class="bank-repair"></div>
+                </a>
+
+                <a href="javascript:;">
+                    <span>储蓄卡</span>
+                    <div class="bank-repair"></div>
+                </a>
+
+                <a href="javascript:;">
+                    <span>信用卡</span>
+                    <div class="bank-repair"></div>
+                </a>
+            </div>
+            <div class="border-orange-3px">
+                <div class="bank-list">
+                    <ul class="deposit-card ui-clear">
+                        <li class="fast-pay"><input class="bank-input" type="radio" /><span>快捷支付</span></li>
+                    </ul>
+                </div>
+                <div class="bank-list">
+                    <ul class="deposit-card ui-clear">
+                        <li class="alipay"><input class="bank-input" type="radio" /><span>支付宝</span></li>
+                    </ul>
+                </div>
+                <div class="bank-list">
+                    <ul class="deposit-card ui-clear">
+                        <li class="icbc"><input class="bank-input" type="radio" /><span>工商银行</span></li>
+                        <li class="abc"><input class="bank-input"  type="radio" /><span>农业银行</span></li>
+                        <li class="boc curr"><input class="bank-input" checked  type="radio" /><span>中国银行</span></li>
+                        <li class="ccb"><input class="bank-input"  type="radio" /><span>建设银行</span></li>
+                        <li class="bcom"><input class="bank-input"  type="radio" /><span>交通银行</span></li>
+
+                        <li class="cmb"><input class="bank-input"  type="radio" /><span>招商银行</span></li>
+                        <li class="post"><input class="bank-input"  type="radio" /><span>邮政银行</span></li>
+                        <li class="cib"><input class="bank-input"  type="radio" /><span>兴业银行</span></li>
+                        <li class="nbcb"><input class="bank-input"  type="radio" /><span>宁波银行</span></li>
+                        <li class="spdb"><input class="bank-input"  type="radio" /><span>浦发银行</span></li>
+
+                        <li class="pab"><input class="bank-input"  type="radio" /><span>平安银行</span></li>
+                        <li class="cmbc"><input class="bank-input"  type="radio" /><span>民生银行</span></li>
+                        <li class="ceb"><input class="bank-input"  type="radio" /><span>光大银行</span></li>
+                        <li class="gdb"><input class="bank-input"  type="radio" /><span>广发银行</span></li>
+
+                        <li class="shb"><input class="bank-input"  type="radio" /><span>上海银行</span></li>
+                        <li class="citic"><input class="bank-input"  type="radio" /><span>中信银行</span></li>
+                    </ul>
+                </div>
+                <div class="bank-list">
+                    <ul class="deposit-card ui-clear">
+                        <li class="icbc"><input class="bank-input" type="radio" /><span>工商银行</span></li>
+                        <li class="abc"><input class="bank-input"  type="radio" /><span>农业银行</span></li>
+                        <li class="boc curr"><input class="bank-input" checked  type="radio" /><span>中国银行</span></li>
+                        <li class="ccb"><input class="bank-input"  type="radio" /><span>建设银行</span></li>
+                        <li class="bcom"><input class="bank-input"  type="radio" /><span>交通银行</span></li>
+
+                        <li class="pab"><input class="bank-input"  type="radio" /><span>平安银行</span></li>
+                        <li class="cmbc"><input class="bank-input"  type="radio" /><span>民生银行</span></li>
+                        <li class="ceb"><input class="bank-input"  type="radio" /><span>光大银行</span></li>
+                        <li class="gdb"><input class="bank-input"  type="radio" /><span>广发银行</span></li>
+
+                        <li class="shb"><input class="bank-input"  type="radio" /><span>上海银行</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <br>
+
+            <div class="ui-form-item">
+                <a class="ui-btn ui-btn-orange">下一步</a>
+            </div>
+            <br>
+        </div>
+
+
+    </div>
+
+    <!--# include file="/html/ssi/footer2.html" -->
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/pay/index.js']);</script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+
+ .ui-page{margin: 20px 0;}
+
+i{ font-family: '宋体'; font-style: normal;font-weight: normal!important; }
+
+.ui-tit{margin-bottom: 0;}
+/* account-set-list */
+.account-set-list{ margin:0 30px; }
+
+.account-set-list  li{ height: 90px; line-height: 90px; overflow: hidden; border-bottom:1px dashed #aaaaaa; }
+
+.account-set-list  li .l{ float: left; width:160px; font-weight: bold; font-size: 14px; color: #333; }
+
+.account-set-list  li .l .iconfont{ color: #ffc169; font-size: 26px; display: inline-block; vertical-align: middle; text-align: center; line-height: 30px; height: 30px; width: 30px; margin: 0 10px 0 0; }
+
+.account-set-list  li .m{ margin: 0 0 0 170px; color: #aaa; }
+
+.account-set-list  li .r{ float: right; }
+
+.account-set-list  li .r .ui-btn{ width: 80px; }
+
+.message-list li{ border-bottom:1px dashed #aaa; line-height: 50px; height: 50px; overflow: hidden; padding: 0 10px;}
+
+.message-list li .time{float: right; margin: 0 0 0 10px;}
+
+.message-list li:hover{background: #fcfcfc;}
+
+.message-list i{margin: 0 5px 0 0;}
+
+.message-list li .l{float: left;width:15%; font-weight: bold;}
+
+.message-list li .r{margin: 0 0 0 16%;}
+
+.message .backhome{ text-align: right; font-weight: bold;}
+
+.message .backhome .arrow-left{color: #aaa;font-size: inherit;margin: 0 5px 0 0;}
+
+.message .con{margin:10px 30px;}
+
+.message .hd{border-bottom: 1px dashed #999;}
+
+.message .hd .time{color: #aaa; text-align: center; margin: 0 0 10px;}
+
+.message .hd  h1{font-size: 20px; line-height: 50px; height: 50px; overflow: hidden; text-align: center; }
+
+.message  .text{margin: 20px 0; line-height: 2;}
+
+.message .text p{text-indent: 2em; padding: 10px 0;}
+
+.ui-form{margin: 20px 0;}
+
+.top-ins{ background: #fffce8;border:1px solid #ffe5c6;padding:15px 20px; margin:10px 0 20px;}
+
+.my-succ{text-align: center;}
+
+.my-succ h3{color: #87be00;font-size: 36px; font-weight: normal; margin: 100px 0 30px;}
+
+.my-succ h3 .iconfont{ font-size: 1.5em; vertical-align:middle; }
+
+.my-succ .backhome{font-weight: bold; font-size: 14px;}
+
+.my-succ .backhome i{font-size: 14px; margin: 0 5px 0  0;}
+
+/*简单版*/
+
+.rl-con{ padding: 40px 0;}
+
+.rl-con h2{ height:40px; line-height: 40px; font-size: 16px; border-bottom: 1px dashed #c6c6c6; }
+
+.rl-con .success{text-align: center;  }
+
+.rl-con  .succ-text{ font-size: 36px; color:#87be00; text-align: center; display: inline-block;  margin:60px 0 30px;*display: inline; zoom:1;word-wrap: normal;
+white-space: nowrap;}
+
+.rl-con  .succ-text .iconfont{ float: left; font-size: 1.5em; margin: 0.25em 0.5em 0 0; display: inline; }
+
+.rl-con  .top-ins{; margin: 30px 0  0;}
+
+.rl-con .find-psw-bycellphone{margin: 40px 0; padding: 20px 30px; background:#faf9f7;}
+
+.rl-con .find-psw-bycellphone .iconfont{ font-size: 2.2em; vertical-align: middle;}
+
+.progress {margin:15px 0;}
+
+ .progress .gb{ width:861px; height: 35px; background: url(../../images/my/c-pb.png) no-repeat; margin:0 auto; }
+
+ .progress .g1{ background-position: 0 0 ;}
+
+ .progress .g2{ background-position: 0 -35px ;}
+
+.progress .progress-txt{text-align: center; padding: 0 36px; margin: 10px 0 0;}
+
+.progress .progress-txt a.active{color: #f60;}
+
+.v-box{margin:40px 0; background:#faf9f7; padding:10px;}
+
+.v-box .v-box-con{background: #fff; padding:10px 20px; border: 1px solid #e7e7e7;}
+
+.v-box .v-top{border-bottom: 1px dashed #e7e7e7; line-height: 40px; margin: 0 0 20px;}
+
+.v-code{border:1px solid #e7e7e7; background: #fcfcfc;padding:10px 20px 5px; display: inline-block; display: none; *display: inline; zoom:1;  }
+
+.v-code .ui-input{margin:0 10px;}
+
+.rl-con  input.ui-xsmall{width:120px;}
+
+.avatar-con{text-align: center;padding:50px 0 20px;}
+
+.avatar-con .btn-back{ position: absolute;}
+
+/* CA证书 */
+.ca-warp .ca{ margin: 0;}
+
+.ca{ padding: 20px 40px; border: 1px #c6c6c6 solid; width: 600px; margin: 20px auto;}
+
+.ca-name{ font-size: 18px;}
+
+.ca p{ padding: 8px 0;}
+
+.get-code-info{ background: #FAF8F8; margin-top: 10px; font-size: 12px; padding: 0px 10px 10px 10px;border: 1px #c6c6c6 solid;}
+
+.ca-install-succeed{ line-height: 1.5; background: #FAF8F8; position: relative; padding: 0 10px 0 75px;}
+
+.ca-install-succeed .iconfont{ position: absolute; font-size: 50px; left:10px; top:0;}
+
+.ca-install-succeed strong{ font-size: 18px; margin-bottom: 10px; display: block;}
+
+.ca2{ padding: 0 10px; width: 680px;}
+
+.ca .ui-tit{ padding-top: 5px; margin-bottom: 10px;}
+
+.ca2 .ui-tit{ padding-top: 5px; margin-bottom: 10px;}
+
+.ca-warp{ border: 10px #E7E6E6 solid; width: 680px; margin: 40px auto;}
+
+.sht-ca-error{ background: #ffff8d; padding: 10px; border: 1px #e7c561 solid; line-height: 1.8; outline: none;}
+
+.sht-ca-error .iconfont{ font-size: 44px; float: left; margin: 0 20px 0 0;}
+
+.sht-ca-error .sht-ca-close{ float: right; font-size: 18px; margin: -10px 0 0 0;}
+
+.info-amend{margin: 20px 0; }
+
+ .info-amend dt{ height: 40px; line-height: 40px; background: #f3f3f3; font-size: 14px; font-weight: bold; padding: 0 15px;}
+
+ .info-amend .sbm{ padding: 10px 0;}
+
+
+

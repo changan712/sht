@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css??common/base.css,pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header.html" -->
+    <div class="container ui-clear ui-wrap"> 
+        <!--# include file="/html/ssi/u-top.html" -->
+        <div class="ui-grid-row">
+            <div class="ui-sidebar"><!--# include file="/html/ssi/u-nav.html" --></div>
+            <div class="ui-main">
+
+                <h2 class="ui-tit">
+                    <a class="more J_dialog_div" data-src="J_add_pay" href="javascript:;"><i class="iconfont">&#x344b;</i> 添加账单</a>
+                    <span class="t">我的账单 <i class="ui-arrow-up"></i> </span>
+                </h2>
+
+                <table class="ui-table">
+                    <tr>
+                        <th>项目</th>
+                        <th>地区</th>
+                        <th>户名</th>
+                        <th>户号</th>
+                        <th>待缴金额</th>
+                        <th>缴费提醒</th>
+                        <th>设置代扣</th>
+                        <th>可执行操作</th>
+                    </tr>
+                    <tr>
+                        <td>燃气费</td>
+                        <td>延吉</td>
+                        <td>项剑锋</td>
+                        <td>44564564564</td>
+                        <td>12.00</td>
+                        <td>未设置</td>
+                        <td>未设置</td>
+                        <td>
+                            <a class="ui-ic-blue" href="#">缴费</a> | 
+                            <a class="ui-ic-blue J_dialog_url" href="/html/pay/set-daikou.html">设置代扣</a> | 
+                            <a class="ui-ic-blue J_demo" href="/html/pay/set-daikou.html">修改</a> | 
+                            <a class="ui-ic-blue" href="#">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>燃气费</td>
+                        <td>延吉</td>
+                        <td>项剑锋</td>
+                        <td>44564564564</td>
+                        <td>12.00</td>
+                        <td>未设置</td>
+                        <td>未设置</td>
+                        <td>
+                            <a class="ui-ic-blue J_dialog_url" href="/html/pay/cancel-daikou.html">取消代扣</a> | 
+                            <a class="ui-ic-blue" href="#">修改</a> | 
+                            <a class="ui-ic-blue" href="#">删除</a>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+
+        <!-- 弹窗开始 -->
+
+        <div class="div-alert auto-show J_auto_show ui-hide">
+            系统检测到此账户还有1张电费账单未添加，是否选择添加？ <br>
+            <a class="ui-btn ui-btn-blue">添加</a> &nbsp; <a  class="ui-btn J_hide">放弃</a>
+        </div>
+
+<div class="ui-box div-alert J_add_pay ui-hide">
+    <div class="ui-box-head">
+        <h3 class="ui-box-head-title">添加缴费账号</h3>
+    </div>
+    <div class="ui-box-container">
+        <div class="ui-box-content">
+            <div class="ui-form">
+                                
+                <div class="ui-form-item">
+                    <label class="ui-label" for="">选择业务: </label>
+                    <select class="ui-select ui-medium">
+                        <option>aaa</option>
+                        <option>bbb</option>
+                        <option>ccc</option>
+                    </select>
+                </div>
+
+                <div class="ui-form-item">
+                    <label class="ui-label" for="">公共事业单位: </label>
+                    <select class="ui-select ui-medium">
+                        <option>aaa</option>
+                        <option>bbb</option>
+                        <option>ccc</option>
+                    </select>
+                </div>
+
+                <div class="ui-form-item">
+                    <label class="ui-label" for="">户号: </label>
+                    <input type="text" class="ui-input">
+                </div>
+
+                <div class="ui-form-item">
+                    <label class="ui-label" for="">户名: </label>
+                    <input type="text" class="ui-input">
+                </div>
+
+                <div class="ui-form-item">
+                    <label class="ui-label" for="">设置提醒: </label>
+                    <input type="checkbox"> &nbsp;&nbsp;  
+                    <select class="ui-select ui-xsmall">
+                        <option>aaa</option>
+                        <option>bbb</option>
+                        <option>ccc</option>
+                    </select>
+                </div>
+
+                <div class="ui-form-item">
+                    <a class="ui-btn ui-btn-blue">立即添加</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="ui-box div-alert">
+    <div class="ui-box-head">
+        <h3 class="ui-box-head-title">充值</h3>
+    </div>
+    <div class="ui-box-container">
+        <div class="ui-box-content">
+            <div class="ui-gray">
+                请在新开的充值页面充值后选择
+            </div>
+
+            <div class="ui-form">
+                                
+                <div class="ui-form-item">
+                    <i class="iconfont ui-green">&#x3442;</i> <strong class="ui-14px">充值成功</strong> &nbsp; | &nbsp; 您可以选择: <a class="ui-blue" href="#">查看充值记录</a>
+                </div>
+
+                <div class="ui-form-item">
+                    <i class="iconfont ui-red">&#x344a;</i> <strong class="ui-14px">充值失败</strong> &nbsp; | &nbsp; 建议您选择: <a class="ui-blue" href="#">选择其它充值方式</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- 弹窗结束 -->
+
+    </div>
+    <!--# include file="/html/ssi/footer.html" -->
+
+    <script src="/scripts/sea-modules/??seajs/seajs/2.1.1/sea.js,seajs/seajs-combo/1.0.1/seajs-combo.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/pay/index.js'],function(i,obj){
+
+        //显示无边框的对话框
+        //obj.noTitleDialog.before('show',function(){alert('show')});  
+        //obj.noTitleDialog.after('show',function(){alert('after show')});   
+
+        // $('.change-city').click(function(){        
+        //     //console.log(obj);
+        //     obj.noTitleDialog.show();
+           
+        // });
+    });</script>
+
+    <script>
+        //文档地址  http://aralejs.org/dialog/
+        seajs.use(['arale/dialog/1.2.5/dialog', 'arale/dialog/1.2.5/confirmbox'], function(Dialog, ConfirmBox) {
+            var dialogObj = new Dialog({
+                content: $('.J_auto_show').show()
+            }).show();
+
+            var confirmObj = new ConfirmBox({
+                trigger: '.change-city',
+                title: '',
+                message: '我是内容 我是内容',
+                confirmTpl: '<a class="ui-btn ui-btn-blue">添加</a>',
+                cancelTpl: '<a  class="ui-btn a">放弃</a>',
+                onConfirm: function() {
+                    alert('老高，这个是确定');
+                },
+                onCancel: function(){
+                    alert('高总，您点的取消');
+                }
+            });
+             
+        });
+    </script>
+
+</body>
+</html>

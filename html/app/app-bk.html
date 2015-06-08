@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>APP</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/app/app.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header.html" -->
+    <br>
+    <div class="container">
+    <div class="ui-wrap app ui-clear">        
+        <div class="down-wrap ui-clear ui-left">
+            <div class="app-tit">
+                <strong>生活通</strong> <span class="bg-gray-img">手机版</span>
+            </div>
+            <div class="app-tit-desc">
+                掌上生活通·生活更轻松
+            </div>
+            <div class="app-code ui-left">
+                <img src="http://placeholder.nipao.com/180">
+                <a href="/html/app/send-message.html" class="ui-blue J_dialog_url">点击发送到手机</a>
+            </div>
+            <div class="app-moblie-select ui-left">
+                <a class="bg-gray-img">iPhone</a>
+                <a class="bg-green-img">Android</a>
+            </div>
+        </div>
+        <div class="app-img ui-right">
+            <img class="iphone-img" src="/images/app/iphone.png" />
+            <img class="android-img" src="/images/app/android.png" />
+        </div>
+        <div style=" clear:both;"></div>
+        <div class="app-tips">
+            温馨提示：现在起下载、注册登陆并激活APP，即可在获取10元话费奖励，24小时内到账。 <br>
+若有疑问，请联系客服：95568
+        </div>
+    </div>
+    </div>
+    <!--# include file="/html/ssi/footer.html" -->
+
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/pay/index.js']);</script>
+</body>
+</html>

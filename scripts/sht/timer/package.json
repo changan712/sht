@@ -1,0 +1,11 @@
+{
+  "family": "sht",
+  "name": "timer",
+  "version": "1.0.0",
+
+  "spm": {    
+      "output": [
+        "timer.js"
+      ]
+    }
+}

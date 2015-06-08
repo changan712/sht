@@ -1,0 +1,11 @@
+{
+  "family": "sht",
+  "name": "search",
+  "version": "1.0.0",
+
+  "spm": {    
+      "output": [
+        "search.js"
+      ]
+    }
+}

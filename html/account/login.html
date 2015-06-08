@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>用户登录</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/account/style.css">
+    <!--[if IE 6]>
+        <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header2.html" --> 
+    <div class="container ui-clear ui-wrap account">
+        <div class="login-ad ui-left">
+            <img src="http://placeholder.nipao.com/580x394">
+        </div>   
+        <div class="user-login ui-right">
+            <h3>欢迎登陆生活通账户</h3>
+
+            <div class="ui-form-item account-correct">
+                <label class="ui-label" for=""><i class="iconfont">&#x3443;</i></label>
+                <input class="ui-input" type="text" placeholder="请输入您的用户名">
+                <div class="account-msg"><i class="iconfont">&#x3442;</i> 这里自定义错误信息</div>
+            </div>
+
+            <div class="ui-form-item">
+                <label class="ui-label" for=""><i class="iconfont">&#x3444;</i></label>
+                <input class="ui-input" type="password" placeholder="请输入您的密码" />
+            </div> 
+
+            <div class="ui-form-item account-error">
+                <label class="ui-label" for=""><i class="iconfont">&#x3444;</i></label>
+                <input class="ui-input" type="password" placeholder="请输入您的密码" />
+                <div class="account-msg"><i class="iconfont">&#x344a;</i> 这里自定义错误信息</div>
+            </div>            
+
+            <div class="ui-form-item">
+                <input type="text" class="ui-input ui-xsmall" placeholder="验证码" /><img src="http://placeholder.nipao.com/100x40" />
+                <div class="account-msg ui-align-right"><a href="#">点图更新验证码</a></div>
+            </div>
+
+            <div class="ui-form-item">
+                <a class="ui-btn ui-btn-blue ui-btn-huge">登 录</a> &nbsp; <a class="ui-blue" href="#">忘记密码?</a>
+            </div>
+
+            <div class="register-btn">
+                <a src="/html/account/login-frame.html" class="ui-btn ui-btn-orange ui-btn-huge J_dialog_login">立即注册</a>
+            </div>            
+
+        </div>  
+
+
+
+    </div> 
+
+    <!--# include file="/html/ssi/footer2.html" -->  
+
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/account/index.js']);</script>
+</body>
+</html>

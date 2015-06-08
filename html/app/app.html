@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>APP</title>
+    <meta name="keywords" content="关键字"/>
+    <meta name="keywords" content="页面描述"/>
+    <link rel="stylesheet" href="../../css/common/base.css">
+    <link rel="stylesheet" href="../../css/app/app.css">
+
+</head>
+<body>
+<!-- to include /html/ssi/header.html-->
+
+<div class="header">
+    <div class="top-bar">
+        <div class="ui-wrap ui-align-right">
+            <a class="ui-orange" href="#">亲, 请登录</a>|<a href="#">免费注册</a>|<a href="#">手机逛生活通</a>
+        </div>
+    </div>
+    <div class="head ">
+        <div class="head-con ui-wrap ui-clear">
+            <div class="nav"><a href="#" class="active">首页</a><a href="#">智慧社区APP</a><a href="#">关于我们</a><a href="#">联系我们</a>
+            </div>
+            <div class="page-hd ui-clear">
+                <h1 class="ui-left"><a class="logo" href="#">生活通</a></h1>
+
+                <div class="local ui-left">
+                    <strong>延吉</strong>
+                    <!--   <a class="change-city">[切换城市]</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="app">
+        <div class="carousel" id="J_carousel">
+            <div class="ui-switchable-nav" data-switchable-role="nav">
+                <span class="prev" data-switchable-role="prev">上一页</span>
+                <a data-switchable-role="trigger"></a>
+                <a data-switchable-role="trigger"></a>
+                <a data-switchable-role="trigger"></a>
+                <a data-switchable-role="trigger"></a>
+                <span class="next" data-switchable-role="next">下一页</span>
+            </div>
+            <div class="carousel-scroller">
+                <ul class="con" data-switchable-role="content">
+                    <li>
+                        <div class="img-bg" style="background-image: url(../../images/app/app-img-1.jpg)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-bg" style="background-image: url(../../images/app/app-img-2.jpg)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-bg" style="background-image: url(../../images/app/app-img-3.jpg)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-bg" style="background-image: url(../../images/app/app-img-4.jpg)">
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="bottom foot-smp">
+    <div class="ui-wrap">
+        <div class="footer">
+            本站发布的所有内容，未经许可，不得转载，详见《知识产权声明》
+            <div class="en-copyright">copyright 2014 www.shenghuo.com all rights reserved</div>
+        </div>
+    </div>
+</div>
+<!--footer end-->
+
+<div class="dl-box ">
+    <a class="close">X</a>
+    <dl>
+        <dt> 点击下载智慧社区手机客户端：</dt>
+        <dd><a href=""><img src="../../images/app/btn-ios.png" alt=""/></a></dd>
+        <dd><a href=""><img src="../../images/app/btn-android.png" alt=""/></a></dd>
+    </dl>
+</div>
+
+<script src="../../scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+<script src="../../scripts/seajs.config.js"></script>
+<script> seajs.use(['../../scripts/public.js', '../../scripts/app/app.js']);</script>
+</body>
+</html>

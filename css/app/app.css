@@ -1,0 +1,95 @@
+.carousel .img-bg {
+    height: 640px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.carousel {
+    height: 640px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ui-switchable-nav {
+    right: 20px;
+    top: 56%;
+    margin: -160px 0 0;
+    width: 60px;
+    position: absolute;
+    z-index: 10000;
+    text-align: center;
+}
+
+.ui-switchable-nav .prev {
+    background: url('../../images/app/app-btn-prev.png') no-repeat;
+    width: 56px;
+    height: 34px;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+.ui-switchable-nav .next {
+    background: url('../../images/app/app-btn-next.png') no-repeat;
+    width: 56px;
+    height: 34px;
+    display: inline-block;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 10px 0 0;
+}
+
+.ui-switchable-nav a {
+    display: inline-block;
+    height: 12px;
+    background: none;
+    border-radius: 50%;
+    width: 12px;
+    border: 4px solid #ccc;
+    border-color: rgba(255, 255, 255, .6);
+    margin: 7px 7px 7px 3px;
+    overflow: hidden;
+}
+
+.ui-switchable-nav a.ui-switchable-active {
+    background: #0087d2;
+    border-color: #fff;
+
+}
+
+.dl-box .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.dl-box {
+    width: 250px;
+    height: 180px;
+    background: #666;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #fff;
+    border-color: rgba(255, 255, 255, .3);
+    padding: 25px;
+
+}
+
+.dl-box img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2)
+}
+
+.dl-box dt {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dl-box dd {
+    margin: 15px 0;
+}

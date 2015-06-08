@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header.html" -->
+    <div class="container ui-clear ui-wrap"> 
+        <!--# include file="/html/ssi/u-top.html" -->
+        <div class="ui-grid-row">
+            <div class="ui-sidebar"><!--# include file="/html/ssi/u-nav.html" --></div>
+            <div class="ui-main">
+                <h2 class="ui-tit">
+                    <span class="t">账单缴费 <i class="ui-arrow-up"></i> </span>
+                </h2>
+
+                <div class="pay-h3 life-list">
+                    <a class="curr" href="javascript:;">水费</a>
+                    <a href="#">电费</a>
+                    <a href="#">煤气费</a>
+                </div>
+
+                <div class="demo-form ui-right">
+                    <i class="iconfont">&#x344c;</i>
+                    <span>查看样单找户号</span>
+                </div>
+
+                <div class="ui-form ui-xlarge">        
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">公共事业单位: </label>
+                        <select class="ui-select ui-medium">
+                            <option>延吉河西自来水公司</option>
+                            <option>bbb</option>
+                            <option>ccc</option>
+                        </select>
+                    </div>
+
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">缴费类型: </label>
+                        <input type="radio"> 户号 &nbsp;&nbsp; <input type="radio"> 条形码
+                    </div>
+
+                    <div class="ui-form-item">
+                        <label class="ui-label" for="">条形码: </label>
+                        <input type="text" class="ui-input"> &nbsp; <i class="iconfont ui-blue">&#x3443;</i> <a href="#" class="ui-blue">历史缴费账号</a>
+                    </div>
+
+                    <div class="ui-form-item">
+                        <a class="ui-btn ui-btn-blue">查询</a> &nbsp; <input type="checkbox" /> 我已阅读并同意《<a class="ui-blue" href="#">生活通缴费协议</a>》
+                    </div>
+
+                    <div class="ui-form-item ui-red">
+                        暂未查到欠费，请改天再来
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+    <!--# include file="/html/ssi/footer.html" -->
+</body>
+</html>

@@ -1,0 +1,44 @@
+h3{font-size: 16px;}
+
+h4{font-size: 14px;}
+
+.about{margin: 30px 0; overflow: hidden;zoom:1;}
+
+.about-con{margin: 0 0 0 200px; line-height: 2; }
+
+.about-nav {float: left;width: 180px; zoom:1; overflow: hidden;}
+
+.about-nav dt{ height: 40px; line-height: 40px; text-align: center; font-size: 14px; font-weight: bold; background-color: #eee; border-top:1px solid #d9d9d9;}
+
+
+.about-nav dd{border:1px solid #e7e7e7 ; border-top:0 none; font-size: 14px; line-height: 2;}
+
+.about-nav dd ul{padding: 12px 0 12px 60px;}
+
+.about-nav dd li.curr a{color: #f60;}
+
+.ui-tit .r-slogan{float: right; color: #f60;font-size: 0.8em;}
+
+.about-con .con{ margin: 20px 30px 30px; overflow: hidden;}
+
+.about-con .no-mr{margin: 20px 0 30px}
+
+.about-table{width:100%;_width:99%; border-collapse: collapse; border-bottom: 1px dashed #e7e7e7; }
+
+.about-table th{background: #f3f3f3; font-size: 16px; font-weight: bold; padding: 5px 10px; text-align: left;}
+
+.about-table  td{padding: 5px 10px;}
+
+.friend-link{overflow: hidden;zoom:1; margin: 0 -40px 0 0;}
+
+.friend-link li{width: 120px; height: 60px; overflow: hidden;border: 1px solid #e7e7e7;float: left; display: inline; margin: 0 38px 30px 0;}
+
+.report-list li { padding: 10px 0; border-bottom: 1px dashed #aaa;zoom:1;}
+
+.report-list li:hover{background: #f3f3f3;}
+
+.report-list li .time{float: left; display: inline; margin: 0 0 0 15px;zoom:1;}
+
+.report-list  li dl{margin: 0 0 0 120px;}
+
+.report-list  li  dd a{color: #aaa;}

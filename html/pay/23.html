@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>用户中心</title>
+    <meta name="keywords" content="关键字" />
+    <meta name="keywords" content="页面描述" />
+    <link rel="stylesheet" href="/css/common/base.css">
+    <link rel="stylesheet" href="/css/pay/style.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/common/ie6.css" />
+    <![endif]-->
+</head>
+<body>
+    <!--# include file="/html/ssi/header2.html" -->
+    <div class="container ui-wrap pay"> 
+        <div class="topup-top">
+            <strong class="ui-orange ui-16px">支付账户充值</strong>
+        </div>
+
+        <div class="bank-wrap"> 
+            <div class="ui-form-item">
+                <label class="ui-label" for="">充值账号: </label>
+                pay@nipao.com
+            </div>
+
+            <div class="ui-form-item">
+                <label class="ui-label" for="">充值金额: </label>
+                <input class="ui-input">
+            </div> 
+
+            <div class="ui-form-item">
+                <label class="ui-label" for="">充值方式: </label>
+                <ul class="deposit-card sp ui-clear">
+                    <li class="icbc"><span>工商银行</span></li>
+                </ul>
+            </div> 
+
+            <div class="ui-form-item">
+                请关注您的充值金额是否超限
+                <table class="ui-table">
+                    <tr>
+                        <th>单笔限额（元）</th>
+                        <th>每日限额（元）</th>
+                        <th>需要满足的条件</th>
+                        <th  width="30%">备注</th>
+                    </tr>
+                    <tr height="50">
+                        <td>5000</td>
+                        <td>5000</td>
+                        <td>开通短信密码版网上银行 <a class="ui-blue">如何开通？</a></td>
+                        <td rowspan=2>
+                            2012年2月8日起，交通银行“交行太平洋卡支付”关闭信用卡向支付宝账户充值的服务，请使用交行储蓄卡进行充值
+                            </td>
+                    </tr>
+                    <tr height="50">
+                        <td>100 万</td>
+                        <td>100万</td>
+                        <td>开通证书认证版网上银行 <a class="ui-blue">如何开通？</a></td>
+                    </tr>
+                </table>
+            </div> 
+
+            <div class="ui-form-item">
+                <a class="ui-btn ui-btn-orange J_cz_btn">下一步</a> &nbsp; <a class="ui-blue">选择其它方式充值</a>
+            </div>
+            <br>
+        </div>
+
+        <!-- 悬浮框开始 -->
+        <div class="ui-box div-alert ui-hide J_cz_show">
+            <div class="ui-box-head">
+                <h3 class="ui-box-head-title">充值</h3>
+            </div>
+            <div class="ui-box-container">
+                <div class="ui-box-content">
+                    <div class="ui-gray">
+                        请在新开的充值页面充值后选择
+                    </div>
+
+                    <div class="ui-form">
+                                        
+                        <div class="ui-form-item">
+                            <i class="iconfont ui-green">&#x3442;</i> <strong class="ui-14px">充值成功</strong> &nbsp; | &nbsp; 您可以选择: <a class="ui-blue" href="#">查看充值记录</a>
+                        </div>
+
+                        <div class="ui-form-item">
+                            <i class="iconfont ui-red">&#x344a;</i> <strong class="ui-14px">充值失败</strong> &nbsp; | &nbsp; 建议您选择: <a class="ui-blue" href="#">选择其它充值方式</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 悬浮框结束 -->
+
+    </div>
+
+    <!--# include file="/html/ssi/footer2.html" -->
+    <script src="/scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+    <script src="/scripts/seajs.config.js"></script>
+    <script> 
+        flag = true;
+        seajs.use(['http://192.168.39.203/scripts/sea-modules/arale/dialog/1.2.5/dialog'], function(Dialog) {
+
+           $('.J_cz_btn').click(function(){
+                if(flag){
+                    new Dialog({
+                        width: '900',
+                        content: $('.J_cz_show').show()
+                    }).show();
+                }
+           });
+
+
+
+            // new Dialog({
+            //     content: '.J_cz_show',    
+            // }).show();
+        //显示无边框的对话框
+        //obj.noTitleDialog.before('show',function(){alert('show')});  
+        //obj.noTitleDialog.after('show',function(){alert('after show')});   
+
+        // $('.change-city').click(function(){        
+        //     //console.log(obj);
+        //     obj.noTitleDialog.show();
+           
+        // });
+        });
+    </script>
+    <script> seajs.use(['/scripts/public.js', '/scripts/pay/index.js']);</script>
+</body>
+</html>

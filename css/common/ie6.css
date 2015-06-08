@@ -1,0 +1,12 @@
+/**
+ * Header
+ */
+.local{ background: url(/images/common/line-8.png) no-repeat 17px 0; }
+.menu li{ background: url(/images/common/line-8.png) no-repeat 0 -56px; }
+.menu li a{display: inline-block;}
+.hot i{bottom: 12px;}
+
+.user-news{_height:156px;}
+.bank-repair{ display: none;}
+.bank-tab a.curr{ background: #fff3dc; border-top: 1px;}
+.bank-tab a.curr span{ bottom: -3px;}

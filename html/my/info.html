@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>my</title>
+    <meta name="keywords" content="关键字"/>
+    <meta name="keywords" content="页面描述"/>
+    <link rel="stylesheet" href="../../css/common/base.css">
+    <link rel="stylesheet" href="../../css/my/my.css">
+
+</head>
+<body>
+<div class="header">
+    <div class="top-bar">
+        <div class="ui-wrap ui-align-right">
+            <a class="ui-orange" href="#">亲, 请登录</a>|<a href="#">免费注册</a>|<a href="#">手机逛生活通</a>
+        </div>
+    </div>
+    <div class="head ">
+        <div class="head-con ui-wrap ui-clear">
+            <div class="nav"><a href="#" class="active">首页</a><a href="#">智慧社区APP</a><a href="#">关于我们</a><a href="#">联系我们</a>
+            </div>
+            <div class="page-hd ui-clear">
+                <h1 class="ui-left"><a class="logo" href="#">生活通</a></h1>
+
+                <div class="local ui-left">
+                    <strong>延吉</strong>
+                    <!--   <a class="change-city">[切换城市]</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container ui-clear ui-wrap">
+
+    <div class="u-main">
+        <!--# include file="/html/ssi/u-nav.html" -->
+        <div class="u-content ">
+            <h2 class="ui-tit">
+                        <span class="t">
+                            身份信息 <i class="ui-arrow-up"></i>
+                        </span>
+            </h2>
+            <dl class="info-amend">
+                <dt>实名信息</dt>
+                <dd>
+                    <ul class="ui-form">
+                        <li class="ui-form-item">
+                            <label class="ui-label" for="">姓名:</label>
+                            <input type="text" class="ui-input"></li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for="">证件类型:</label>
+                            <select class="ui-select">
+                                <option value="1">测试</option>
+
+                            </select>
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for="">证件号码:</label>
+                            <input type="text" class="ui-input"></li>
+                        <li class="ui-form-item">
+                            <span class="ui-label" for="">性别:</span>
+                            <label for="">
+                                <input type="radio">男</label>
+                            &nbsp;&nbsp;&nbsp;
+                            <label for="">
+                                <input type="radio">女</label>
+                        </li>
+
+                        <li class="ui-form-item">
+                            <label class="ui-label" for="">出生日期:</label>
+                            1985年11月11日
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for="">户籍地址:</label>
+                            <input type="text" class="ui-input ui-large"/>
+                        </li>
+
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="info-amend">
+                <dt>实名信息</dt>
+                <dd>
+                    <ul class="ui-form">
+                        <li class="ui-form-item">
+                            <span class="ui-label" for=""><span class="ui-red">*</span> 性别:</span>
+                            <label for="">
+                                <input type="radio">男</label>
+                            &nbsp;&nbsp;&nbsp;
+                            <label for="">
+                                <input type="radio">女</label>
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for=""><span class="ui-red">*</span> 名族:</label>
+                            <input type="text" class="ui-input">
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for=""><span class="ui-red">*</span> 短信通知手机号::</label>
+                            <input type="text" class="ui-input">
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for="">固定电话:</label>
+                            <input type="text" class="ui-input">
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for=""><span class="ui-red">*</span> 家庭地址:</label>
+                            <select class="ui-select">
+                                <option value="1">省</option>
+                            </select>
+                            <select class="ui-select">
+                                <option value="1">市</option>
+                            </select>
+                            <select class="ui-select">
+                                <option value="1">县</option>
+                            </select>
+                            <input type="text" class="ui-input">
+
+                        </li>
+                        <li class="ui-form-item">
+                            <label class="ui-label" for=""><span class="ui-red">*</span> 职业:</label>
+                            <select class="ui-select">
+                                <option value="1">县</option>
+                            </select>
+                        </li>
+                        <li class="ui-form-item">
+                            <div class="sbm">
+                                <a class="ui-btn ui-btn-huge ui-btn-orange" >确认修改</a>
+                            </div>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+
+
+        </div>
+    </div>
+</div>
+<!--# include file="/html/ssi/footer-smp.html" -->
+
+<script src="../../scripts/sea-modules/seajs/seajs/2.1.1/sea.js" id="seajsnode"></script>
+<script src="../../scripts/seajs.config.js"></script>
+<script> seajs.use(['../../scripts/public.js', '../../scripts/my/my.js']);</script>
+</body>
+</html>

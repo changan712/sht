@@ -1,0 +1,74 @@
+h3{font-size: 16px;}
+
+h4{font-size: 14px;}
+
+.civic{margin: 30px 0; overflow: hidden;zoom:1;}
+
+.civic-con{margin: 0 0 0 200px; line-height: 2; }
+
+.civic-nav {float: left;width: 160px; zoom:1; overflow: hidden;}
+
+.ui-tit .r-slogan{float: right; color: #f60;font-size: 0.8em;}
+
+.civic-con .con{ margin: 20px 30px 30px; overflow: hidden;}
+
+.civic-con .no-mr{margin: 20px 0 30px}
+
+.civic-table{width:100%;_width:99%; border-collapse: collapse; border-bottom: 1px dashed #e7e7e7; }
+
+.civic-table th{background: #f3f3f3; font-size: 16px; font-weight: bold; padding: 5px 10px; text-align: left;}
+
+.civic-table  td{padding: 5px 10px;}
+
+.friend-link{overflow: hidden;zoom:1; margin: 0 -40px 0 0;}
+
+.friend-link li{width: 120px; height: 60px; overflow: hidden;border: 1px solid #e7e7e7;float: left; display: inline; margin: 0 38px 30px 0;}
+
+.report-list li { padding: 10px 0; border-bottom: 1px dashed #aaa;zoom:1;}
+
+.report-list li:hover{background: #f3f3f3;}
+
+.report-list li .time{float: left; display: inline; margin: 0 0 0 15px;zoom:1;}
+
+.report-list  li dl{margin: 0 0 0 120px;}
+
+.report-list  li  dd a{color: #aaa;}
+
+
+.nav{padding: 0 10px; zoom:1;}
+
+.nav li{margin:5px 0;border: 1px solid #e7e7e7; background: #fcfcfc;zoom:1;}
+
+.nav li a{ display: block; height: 32px; line-height: 32px; font-size: 14px;position: relative;padding: 0 0 0 20px; }
+
+.nav li li{margin: 0; position: relative;border-style:dotted; border-color: #D8D8D8;  border-top:none; border-right:none; background: #fff;}
+
+.nav li li:last-child{border-bottom: none;}
+
+.nav li li a {  display: inline}
+
+.nav li.haschild a{cursor: default;}
+
+.nav li.haschild  li a{ cursor: pointer;}
+
+.nav li ul{margin: 5px 0 5px 15px;   }
+
+.nav li ul a{font-size: 12px;}
+
+.nav li ul{ display: none;}
+
+.nav li.active ul{ display: block;}
+
+.nav li ul a{line-height: 26px;}
+
+.nav li:hover{ background: #fff;}
+
+.nav li ul li.active a,.nav li ul a:hover{color: #000; font-weight: bold;}
+
+.nav  li.active{ background: #fff;}
+
+.nav  li.active a{ border-bottom: 1px #f60 solid; color: #f60;}
+
+.nav li  li.active a{ border: none;}
+
+.nav  li.active li a{ color: #333; border: none;}
